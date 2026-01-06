@@ -1,0 +1,43 @@
+main{
+    margin: 1em;
+}
+
+@media screen and ( width > 800px){
+
+    main{
+        margin: 4em;
+    }
+    .flexbox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    p{
+        padding-right: 2em;
+    }
+    .startknap {
+  font-family: secular;
+  list-style: none;
+  background-color: #56a2f0;
+  margin: 0.7em;
+  width: 600px;
+  height: 100px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1e0362;
+  place-content: center;
+  text-align: center;
+  place-self: center;
+  
+}
+img{
+    max-width: 600px;
+    max-height: 350px;
+    place-self: center;
+}
+.mypic{
+    max-width: 400px;
+    max-height: fit-content;
+    place-self: center;
+}
+}
